@@ -5,6 +5,9 @@
 
 new { @class = "datePicker" })
 
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/bundles/jqueryui")
+
 <script>
     $(document).ready(function(){
         $(".datePicker").datepicker(
